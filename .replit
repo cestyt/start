@@ -1,0 +1,6 @@
+run = "git remote -v"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "git remote -v"]
